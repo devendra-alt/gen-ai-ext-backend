@@ -1,0 +1,4 @@
+    "start": "nodemon ./src/index.js"
+  },
+    "nodemon": "^3.0.1"
+  }
