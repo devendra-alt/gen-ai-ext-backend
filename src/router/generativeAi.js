@@ -5,7 +5,7 @@ router.use((request, response, next) => {
   next();
 });
 
-router.get('/', (request, response) => {
+router.post('/', (request, response) => {
   response.status(200).send('Gen AI!');
 });
 
