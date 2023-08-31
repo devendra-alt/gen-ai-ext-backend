@@ -11,7 +11,7 @@ app.use(
   })
 );
 
-app.get('/', (request, respond) => {
+app.post('/', (request, respond) => {
   respond.status(200).send('GenAI Home!');
 });
 
