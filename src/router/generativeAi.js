@@ -9,7 +9,7 @@ router.get('/', (request, response) => {
   response.status(200).send('Gen AI!');
 });
 
-router.get('/generate', (request, response) => {
+router.post('/generate', (request, response) => {
   response.status(200).json({
     message: 'Hello from GenAI!',
   });
